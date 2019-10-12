@@ -1,0 +1,105 @@
+body{
+  background: rgb(245,245,245);
+  color: black;
+  font-size: 25px;
+  font-family: Helvetica;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h1{
+  font-family: "cookie";
+  color: #CC6A87;
+  font-weight: lighter;
+  font-size: 100px;
+}
+h2 {
+  font-family: Courier;
+  color: black;
+  font-weight: lighter;
+  font-size: 50px;
+}
+
+
+a {
+  color: pink;
+}
+
+a:hover {
+  text-decoration: none;
+  font-size: 30px;
+  color: purple;
+}
+
+
+
+#banner{
+  background-image: url("https://unsplash.it/1300/600?random");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 150px;
+  background-color: rgba(255,255,255, 0.5);
+  margin-bottom: 20px;
+}
+#banner h2 {
+  color: white;
+  margin: 20px;
+  padding-top:-6px; 
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+
+.btn-pink {
+	background-color: pink;
+	border-color: pink;
+	font-size: 20px;
+}
+/*because you now have used a pre form of coding your button it will forget what you told him before like color or font size, so you need to go to the class you added to you button and costumize it again in here*/
+
+
+.btn-pink:hover {
+	background-color: pink;
+	border-color: pink;
+}
+/*because you now have used a pre form of coding your button it will forget what you told him before like color or font size, so you need to go to the class you added to you button and costumize it again in here*/
+
+#intro p {
+	
+	margin: 25px 25px 100px; /*auto means for top and right is going to be equal and autmatic spacing for right and left it will be applying the px you choose. Dont forget to costumize each it starts clock-size*/
+
+}
+
+
+
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+
+.thematiccard {
+  font-weight: lighter;
+  text-align: center;
+}
+.thematiccard h2{
+  font-size: 30px;
+}
+.thematiccard p{
+  font-size: 20px;
+}
+/*.thematiccard img{
+  width: 100%;
+} in case you didn't define a width for each picture you could do that here*/
+
+
+
